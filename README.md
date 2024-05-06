@@ -4,23 +4,13 @@
 [![Awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=Awesome+plugin&color=000000&style=for-the-badge&logo=cheshire_cat_ai)](https://)  
 [![awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=awesome+plugin&color=F4F4F5&style=for-the-badge&logo=cheshire_cat_black)](https://)
 
-Write here all the useful information about your plugin.
-
-This repository is the template to automate the release of official Cheshire Cat AI plugins. 
+This plug-in allow you to edit chunk size and chunk overlap.
+In Settings you can edit chunk size and chunk overlap.
+bigger the chunk bigger the context
 
 ## Usage
 
-1. Create a new repository clicking on the `Use this template` button.
-2. Clone your new repo directly in the Cat's `plugins` folder.
-3. Run the `setup.py` script:
-```bash
-python setup.py
-```
-The script will prompt you to write the name of your plugin and make an initial setup setting the name in the files.
-
-4. Start developing!
-
-> **Important**
-> A new release of your plugin is triggered every time you set a new `version` in the `plugin.json` file.
-> Please, remember to set it correctly every time you want to release an update.
+1) Run the cheshire cat
+2) Copy the plug in the plug in repository
+3) Edit chunk size and chunk overlap in the settings of the plug in
 

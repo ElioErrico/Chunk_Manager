@@ -1,10 +1,9 @@
 {
-    "name": "My plugin",
+    "name": "Chunk Manager",
     "version": "0.0.1",
-    "description": "Description of my_plugin.",
-    "author_name": "Me",
+    "description": "In Settings you can edit chunk size and chunk overlap, bigger the chunk bigger the context",
+    "author_name": "EE",
     "author_url": "https://mywebsite.me",
-    "plugin_url": "https://github.com/my_name/my_plugin",
-    "tags": "cat, template, example",
-    "thumb": "https://raw.githubusercontent.com/my_repo_path/my_plugin.png"
+    "plugin_url": "https://github.com/ElioErrico/Chunk_Manager",
+    "tags": "cat, chunk_size, chunk_overlap, rabbithole"
 }

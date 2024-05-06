@@ -1,4 +1,4 @@
 {
-    "Chunk_Size": 128,
-    "Chunk_Overlap": 64
+    "Chunk_Size": 1024,
+    "Chunk_Overlap": 128
 }

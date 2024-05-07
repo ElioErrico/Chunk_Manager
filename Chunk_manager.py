@@ -3,7 +3,7 @@ from cat.mad_hatter.decorators import hook
 @hook
 def rabbithole_instantiates_splitter(text_splitter, cat):
     
-    settings = cat.mad_hatter.plugins["ccat_chunk_manager"].load_settings()
+    settings = cat.mad_hatter.get_plugin().load_settings()
     edited_chunk_size = settings["Chunk_Size"]
     edited_chunk_overlap = settings["Chunk_Overlap"]
 
